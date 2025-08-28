@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 def make_dataframe(data, features):
-    df = pd.DataFrame([data])  # wrap in list to avoid scalar issue
+    df = pd.DataFrame([data])
     df = pd.get_dummies(df)
     df = df.reindex(columns=features, fill_value=0)
     return df
