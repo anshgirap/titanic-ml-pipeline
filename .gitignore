@@ -1,18 +1,29 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 
-# Jupyter notebook checkpoints
+# Model files
+*.pkl
+*.joblib
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Virtual environment
-venv/
-.env/
-
-# OS-specific
+# OS files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
+
+# IDE files
+.vscode/
+.idea/
