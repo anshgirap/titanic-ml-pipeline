@@ -1,0 +1,9 @@
+[
+  "Pclass",
+  "Sex",
+  "Age",
+  "Fare",
+  "Embarked_Q",
+  "Embarked_S",
+  "FamilySize"
+]
