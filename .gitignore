@@ -1,29 +1,44 @@
-# Byte-compiled / cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 
-# Model files
-*.pkl
-*.joblib
-
-# Virtual environments
-venv/
+# Virtual environment
 .venv/
+venv/
 env/
-ENV/
 
-# Jupyter checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# OS files
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# macOS / Windows system files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Python egg / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 
-# IDE files
-.vscode/
-.idea/
+# Data
+data/*.csv
+!data/titanic.csv
+!data/titanic_clean.csv
+data/*.json
+
+# Models
+models/*.pkl
+
+# Reports / Outputs
+outputs/
