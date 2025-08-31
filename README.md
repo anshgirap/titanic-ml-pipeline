@@ -1,4 +1,4 @@
-# Titanic ML Pipeline
+# ⚙️ Titanic ML Pipeline
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5%2B-orange)](https://scikit-learn.org/stable/)
@@ -67,7 +67,10 @@ Prepare an input JSON (`data/sample.json`):
   "Pclass": 3,
   "Sex": "male",
   "Age": 22,
-  "Fare": 7.25
+  "SibSp": 1,
+  "Parch": 0,
+  "Fare": 7.25,
+  "Embarked": "S"
 }
 ```
 
